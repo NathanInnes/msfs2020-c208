@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/WasmInstrument/WasmInstrument.css",
+      "size": 612,
+      "date": 132412721835164765
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/WasmInstrument/WasmInstrument.html",
+      "size": 427,
+      "date": 132402817764020852
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/WasmInstrument/WasmInstrument.js",
+      "size": 780,
+      "date": 132412716882084676
+    }
+  ]
+}

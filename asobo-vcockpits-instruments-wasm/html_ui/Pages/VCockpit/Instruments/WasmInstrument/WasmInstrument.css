@@ -1,0 +1,39 @@
+﻿:root {
+  --bodyHeightScale: 1; }
+
+@keyframes TemporaryShow {
+  0%, 100% {
+    visibility: visible; } }
+
+@keyframes TemporaryHide {
+  0%, 100% {
+    visibility: hidden; } }
+
+#highlight {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10; }
+
+#Electricity {
+  width: 100%;
+  height: 100%; }
+  #Electricity[state=off] {
+    display: none; }
+
+wasm-instrument {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  wasm-instrument #Mainframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+wasm-sim-canvas {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
